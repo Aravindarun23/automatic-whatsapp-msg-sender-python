@@ -1,0 +1,11 @@
+import random
+types=['diamond','spade','club','heart']
+nums=[2,3,4,5,6,7,8,9,"king","queen","jack","ace"]
+
+def cardgame():
+    type=random.choice(types)
+    num=random.choice(nums)
+    return(f"the {type.upper()} of {num}")
+
+print(cardgame())
+
