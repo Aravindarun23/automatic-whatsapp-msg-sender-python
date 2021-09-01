@@ -1,0 +1,2 @@
+import pywhatkit
+pywhatkit.sendwhatmsg("write the number u want to snd the msg"," write content ex:(happy birthday)","write time in 24 hrs format ex:"10,"wrie time in minites ex:"9)
