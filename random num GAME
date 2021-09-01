@@ -1,0 +1,15 @@
+import random
+
+def game():
+    n=random.randint(1,11)
+    guess=int(input("ether ur guess number 1 to 10--::"))
+    
+    if n==guess:
+        print("u win te game")
+        print("your number is::",guess,"computer num is::",n)
+    else:
+        print("u lose")
+        print("your number is::",guess,"computer num is::",n)
+        print("please try again")
+        game()
+game()
