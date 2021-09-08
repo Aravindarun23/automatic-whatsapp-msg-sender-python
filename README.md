@@ -4,3 +4,4 @@
 2) simple calendar
 3) random num GAME
 4) random card picker
+5) simple star pattern
