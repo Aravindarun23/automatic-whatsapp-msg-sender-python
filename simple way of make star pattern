@@ -1,0 +1,5 @@
+user=int(input("enter how hany rows u want::"))
+c=input("enter what letter r logo u want::")
+
+for i in range(user):
+    print((c*i).rjust(user-1)+c+(c*i).ljust(user-1))
